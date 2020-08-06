@@ -27,9 +27,9 @@ number of process in an even blocks fashion,
 (ex: n=100 p=4  ,  1-25 // 26-50 // 51-75 // 76-100).
 
 	Process 0: 3 5 7 11 13 17 19 23  ,Elapsed Time = 2.2e-05
-	Process 1: 29 31 37 41 43 47 		 ,Elapsed Time = 6e-06
-	Process 2: 53 59 61 67 71 73 		 ,Elapsed Time = 2.3e-05
-	Process 3: 79 83 89 97 		 		   ,Elapsed Time = 6e-06
+	Process 1: 29 31 37 41 43 47 	 ,Elapsed Time = 6e-06
+	Process 2: 53 59 61 67 71 73 	 ,Elapsed Time = 2.3e-05
+	Process 3: 79 83 89 97		 ,Elapsed Time = 6e-06
 
 -------------------------------
 
@@ -44,9 +44,9 @@ the same amount of small and large numbers which fixes the load imbalance
 that was present in the previous code.
 
 	Process 0: 3 11 19 43 59 67 83  ,Elapsed Time = 6e-06
-	Process 1: 5 13 29 37 53 61 	  ,Elapsed Time = 4e-06
-	Process 2: 7 23 31 47 71 79 	  ,Elapsed Time = 4e-06
-	Process 3: 17 41 73 89 97 	 	  ,Elapsed Time = 4e-06
+	Process 1: 5 13 29 37 53 61 	 ,Elapsed Time = 4e-06
+	Process 2: 7 23 31 47 71 79 	 ,Elapsed Time = 4e-06
+	Process 3: 17 41 73 89 97 	 ,Elapsed Time = 4e-06
 
 
 -------------------------------
