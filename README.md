@@ -43,7 +43,7 @@ instead of even blocks, this method allows the processes to get approx
 the same amount of small and large numbers which fixes the load imbalance
 that was present in the previous code.
 
-	Process 0: 3 11 19 43 59 67 83  ,Elapsed Time = 6e-06
+	Process 0: 3 11 19 43 59 67 83   ,Elapsed Time = 6e-06
 	Process 1: 5 13 29 37 53 61 	 ,Elapsed Time = 4e-06
 	Process 2: 7 23 31 47 71 79 	 ,Elapsed Time = 4e-06
 	Process 3: 17 41 73 89 97 	 ,Elapsed Time = 4e-06
